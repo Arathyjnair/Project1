@@ -8,17 +8,40 @@
 
     <TextView
         android:id="@+id/quot1"
-        android:fontFamily="monospace"
-        android:layout_width="278dp"
-        android:layout_height="90dp"
+        android:layout_width="300dp"
+        android:layout_height="26dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="52dp"
+        android:fontFamily="monospace"
         android:text="Don't find fault.Find a remedy"
+        android:textColor="@color/Black"
         android:textSize="15dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="monospace"
+        android:text="- Hendry Ford"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quot1"
+        app:layout_constraintVertical_bias="0.0" />
 </android.support.constraint.ConstraintLayout>
