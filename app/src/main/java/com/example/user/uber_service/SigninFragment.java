@@ -24,7 +24,7 @@ Button user1,service_provider;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-            View vs= inflater.inflate(R.layout.fragment_signin, container, false);
+            View vs= inflater.inflate(R.layout.sparechoosecatagory, container, false);
             user1=vs.findViewById(R.id.usr);
             service_provider=vs.findViewById(R.id.srvepro);
 

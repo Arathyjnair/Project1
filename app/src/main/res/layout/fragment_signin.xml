@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:alpha=".75"
     tools:context=".SigninFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -18,9 +20,8 @@
         android:layout_marginTop="92dp"
         android:layout_marginEnd="57dp"
         android:layout_marginRight="57dp"
-        android:fontFamily="monospace"
-        android:text="Login as : "
-        android:textColor="@color/Black"
+        android:text="Choose your category : "
+        android:textColor="#ffffff"
         android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,6 +46,7 @@
         android:text="USER"
         android:textSize="20dp"
         android:textStyle="bold"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/srvepro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,6 +54,8 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
+        android:textColor="#ffffff"
+
         android:id="@+id/srvepro"
         android:layout_width="229dp"
         android:layout_height="56dp"
